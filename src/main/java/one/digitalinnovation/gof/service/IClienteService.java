@@ -12,6 +12,6 @@ public interface IClienteService {
 
     void atualizar(Long id, Cliente cliente);
 
-    void deletar(Cliente cliente);
+    void deletar(Long id);
 
 }
